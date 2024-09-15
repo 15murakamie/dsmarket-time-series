@@ -1,6 +1,6 @@
-# elbowmethod(df_clustering, 
-#             'Annual Income (k$)', 
-#             'Spending Score (1-100)')
+# elbowmethod(df_var=df_clustering, 
+#             x_var='Annual Income (k$)', 
+#             y_var='Spending Score (1-100)')
 
 # Usando o Elbow Method com Elkan para definir o valor de K
 import numpy as np

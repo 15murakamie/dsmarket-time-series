@@ -1,6 +1,7 @@
-# dendograma(df_clustering, 
-#             'Annual Income (k$)', 
-#             'Spending Score (1-100)')
+# dendograma(df_var=df_sold_week_x_depart, 
+#                     x_var='units_sold', 
+#                     y_var='sell_price')
+
 
 # Fazendo dendograma
 import matplotlib.pyplot as plt

@@ -1,7 +1,7 @@
-# kmeans_clust(df_clustering, 
-#             'Annual Income (k$)', 
-#             'Spending Score (1-100)',
-#             5)
+# kmeans_clust(df_var=df_clustering, 
+#             x_var='Annual Income (k$)', 
+#             y_var='Spending Score (1-100)',
+#             nclus=5)
 
 # Fazendo clustering com N=5
 import numpy as np
@@ -32,6 +32,6 @@ def kmeans_clust(df_var, x_var, y_var, nclust):
     plt.title('Clusters of customers')
     plt.scatter( x = x_var, y = y_var, data = df_var, c = labels1, s = 100)
     plt.scatter(x = centroids1[: , 0] , y =  centroids1[: , 1] , s = 300 , c = 'red' , alpha = 0.5)
-    plt.ylabel(x_var) , plt.xlabel(y_var)
+    plt.ylabel(y_var) , plt.xlabel(x_var)
     plt.show()
 

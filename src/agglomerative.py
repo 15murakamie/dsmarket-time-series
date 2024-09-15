@@ -1,7 +1,7 @@
-# agglomerative_clust(df_clustering, 
-#             'Annual Income (k$)', 
-#             'Spending Score (1-100)',
-#             5)
+# agglomerative_clust(df_var=df_clustering, 
+#                    x_var='Annual Income (k$)', 
+#                    y_var='Spending Score (1-100)',
+#                    nclust=5)
 
 # Fazendo clustering com N=5
 import numpy as np
